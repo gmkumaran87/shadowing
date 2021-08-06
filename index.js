@@ -53,3 +53,9 @@ let employee = 'Liza';
     console.log(employee); // Liza Liza Liza (repeated three times in each loop)
     console.log(engineer); // Lucia James Vera
 });
+
+
+// Temporal Dead Zone
+
+/* Variables declared with let are still hoisted, but they don't automatically receive a value of undefined the way variables declared with var do. 
+ This gap between when a variable declared with let is hoisted and when it actually gets declared is known as the temporal dead zone.*/
